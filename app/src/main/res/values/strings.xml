@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">BusinessConnect</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign up</string>
+    <string name="reg">Register</string>
+    <string name="sign_account">Sign in your account</string>
+    <string name="create">Create your account</string>
+    <string name="user_name">User Name</string>
+    <string name="password">Password</string>
+    <string name="forgot">Forgot password?</string>
+    <string name="no_account">Don’t have any account?</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="mainLogo">mainLogo</string>
+    <string name="textLogo">textLogo</string>
+</resources>
