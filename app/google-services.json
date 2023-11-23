@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "940998314699",
+    "project_id": "pet1-3aebe",
+    "storage_bucket": "pet1-3aebe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:940998314699:android:72fc8f29059861d6e1294e",
+        "android_client_info": {
+          "package_name": "com.example.businessconnect"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAw3YLu3g3Tk7IcgcKGhERZJR2N9CFx1ys"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -54,14 +54,14 @@
         app:boxStrokeErrorColor="@color/error">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/edUserText"
+            android:id="@+id/edUserText1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/user_name"
-            app:boxStrokeColor="@color/edText_color"
-            android:textColorHint="@color/grey"
+            android:inputType="textPersonName"
             android:textColor="@color/grey"
-            android:inputType="textPersonName"/>
+            android:textColorHint="@color/grey"
+            app:boxStrokeColor="@color/edText_color" />
     </com.google.android.material.textfield.TextInputLayout>
 
 
@@ -85,7 +85,7 @@
         tools:layout_editor_absoluteX="15dp">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/edPasswordText"
+            android:id="@+id/edPasswordText1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/password"
