@@ -79,7 +79,7 @@
         android:layout_height="wrap_content"
         android:text="@string/regSucces"
         android:fontFamily="@font/mulishregular"
-        android:textSize="20sp"
+        android:textSize="15sp"
         android:textColor="@color/grey"
         app:layout_constraintTop_toBottomOf="@id/tvCongrets"
         android:layout_marginHorizontal="100dp"
@@ -97,6 +97,7 @@
         android:onClick="onClickGreat"
         android:text="@string/great"
         android:textSize="20sp"
+        android:textColor="@color/white"
         app:layout_constraintTop_toBottomOf="@id/tvRegSucces"
         tools:layout_editor_absoluteX="100dp" />
 
