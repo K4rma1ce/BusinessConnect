@@ -13,4 +13,7 @@
     <string name="phone">Phone</string>
     <string name="mainLogo">mainLogo</string>
     <string name="textLogo">textLogo</string>
+    <string name="congrats">Congrats!</string>
+    <string name="regSucces">Account RegisteredSuccessfully</string>
+    <string name="great">Great!</string>
 </resources>

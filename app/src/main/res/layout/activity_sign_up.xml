@@ -161,6 +161,7 @@
         android:backgroundTint="@color/bottom_color"
         android:fontFamily="@font/mulishregular"
         android:gravity="center"
+        android:onClick="onClickSplashReg"
         android:text="@string/sign_up"
         android:textColor="@color/white"
         android:textSize="20sp"

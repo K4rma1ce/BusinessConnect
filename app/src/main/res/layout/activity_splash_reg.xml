@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashReg"
+    android:background="@color/background">
+
+    <ImageView
+        android:id="@+id/circle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:foregroundGravity="center"
+        android:src="@drawable/circle_splash"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageView
+        android:id="@+id/checkMark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/check_mark"
+        app:layout_constraintBottom_toBottomOf="@+id/circle"
+        app:layout_constraintEnd_toEndOf="@+id/circle"
+        app:layout_constraintStart_toStartOf="@+id/circle"
+        app:layout_constraintTop_toTopOf="@+id/circle"
+        />
+
+    <ImageView
+        android:id="@+id/littleCirc1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/little_circle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="109dp"/>
+
+    <ImageView
+        android:id="@+id/littleCirc2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/little_circle_2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="305dp"
+        android:layout_marginStart="57dp"/>
+
+    <ImageView
+        android:id="@+id/littleCirc3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/little_circle_3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="352dp"
+        android:layout_marginEnd="71dp"/>
+
+    <TextView
+        android:id="@+id/tvCongrets"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/congrats"
+        android:fontFamily="@font/mulishbold"
+        android:textColor="@color/white"
+        android:textSize="55sp"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@+id/circle"
+        android:layout_marginHorizontal="37dp"
+        android:layout_marginTop="92dp"
+        />
+
+    <TextView
+        android:id="@+id/tvRegSucces"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/regSucces"
+        android:fontFamily="@font/mulishregular"
+        android:textSize="20sp"
+        android:textColor="@color/grey"
+        app:layout_constraintTop_toBottomOf="@id/tvCongrets"
+        android:layout_marginHorizontal="100dp"
+        android:gravity="center"
+        android:layout_marginTop="40dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btGreat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="100dp"
+        android:layout_marginTop="41dp"
+        android:backgroundTint="@color/bottom_color"
+        android:fontFamily="@font/mulishregular"
+        android:onClick="onClickGreat"
+        android:text="@string/great"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@id/tvRegSucces"
+        tools:layout_editor_absoluteX="100dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
