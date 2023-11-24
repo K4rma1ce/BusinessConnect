@@ -14,6 +14,6 @@
     <string name="mainLogo">mainLogo</string>
     <string name="textLogo">textLogo</string>
     <string name="congrats">Congrats!</string>
-    <string name="regSucces">Account RegisteredSuccessfully</string>
+    <string name="regSucces">Account Registered Successfully</string>
     <string name="great">Great!</string>
 </resources>
