@@ -7,4 +7,5 @@
     <color name="edText_color">#35879F</color>
     <color name="grey">#C3C0C0</color>
     <color name="error">#FF0000</color>
+    <color name="navMenu">#6393AF</color>
 </resources>

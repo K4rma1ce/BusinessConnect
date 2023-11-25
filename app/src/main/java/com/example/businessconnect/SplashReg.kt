@@ -4,7 +4,6 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import com.example.businessconnect.databinding.ActivityMainMenuBinding
 import com.example.businessconnect.databinding.ActivitySplashRegBinding
 
 class SplashReg : AppCompatActivity() {
@@ -19,5 +18,4 @@ class SplashReg : AppCompatActivity() {
         val i = Intent(this, MainMenu::class.java)
         startActivity(i)
     }
-
 }
