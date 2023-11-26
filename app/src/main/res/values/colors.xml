@@ -8,4 +8,5 @@
     <color name="grey">#C3C0C0</color>
     <color name="error">#FF0000</color>
     <color name="navMenu">#6393AF</color>
+    <color name="menuColor">#C0C0CF</color>
 </resources>

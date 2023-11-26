@@ -11,7 +11,6 @@ class MainMenu : AppCompatActivity() {
         binding = ActivityMainMenuBinding.inflate(layoutInflater)
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
-
         binding.apply{
             navView.setNavigationItemSelectedListener {
                 true

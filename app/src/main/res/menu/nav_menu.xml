@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item android:title="">
+        <menu>
+            <item android:title="@string/profile" android:id="@+id/profile" android:icon="@drawable/home" />
+            <item android:title="@string/task" android:id="@+id/task" android:icon="@drawable/mail"/>
+            <item android:title="@string/partners" android:id="@+id/partners" android:icon="@drawable/partners"/>
+            <item android:title="@string/documents" android:id="@+id/documents" android:icon="@drawable/documents"/>
+            <item android:title="@string/notification" android:id="@+id/notification" android:icon="@drawable/notification"/>
+            <item android:title="@string/settings" android:id="@+id/settings" android:icon="@drawable/settings"/>
+            <item android:title="@string/report" android:id="@+id/report" android:icon="@drawable/report"/>
+        </menu>
+    </item>
+
+</menu>

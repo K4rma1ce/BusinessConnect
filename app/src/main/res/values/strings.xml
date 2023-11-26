@@ -17,4 +17,10 @@
     <string name="regSucces">Account Registered Successfully</string>
     <string name="great">Great!</string>
     <string name="profile">Профиль</string>
+    <string name="task">Task</string>
+    <string name="partners">Партнеры</string>
+    <string name="documents">Документы</string>
+    <string name="notification">Уведомления</string>
+    <string name="settings">Настройки</string>
+    <string name="report">Сообщить об ошибке</string>
 </resources>
